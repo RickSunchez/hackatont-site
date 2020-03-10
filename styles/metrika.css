@@ -1,0 +1,48 @@
+#metrika {
+	width: 100%;
+	height: 30vh;
+	position: relative;
+} 
+
+#metrika .text {
+	width: 14%;
+	height: 60%;
+	left: 30%;
+	top: 20%;
+	position: absolute;
+}
+	#metrika .text .text-main {
+		font-size: 40px;
+	}
+	#metrika .text .text-sub {
+		position: absolute;
+		bottom: 0px;
+	}
+#metrika .elements {
+	width: 55%;
+	height: 50%;
+	top: 25%;
+	position: absolute;
+	left: 45%;
+}
+#metrika .elements .elem-title {
+	height: 30%;
+}
+#metrika .elements .progress-bar-container {
+	height: 40%;
+}
+#metrika .elements .progress-bar {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 500px;
+	background: linear-gradient(to right, green 0%, green 20%, white 20%, white 100%);
+	border: solid 1px grey;
+}
+#metrika .elements .cyan {
+	padding: 25px 40px;
+	border-radius: 35px;
+	border: none;
+	outline: none;
+	background-color: #01BABA;
+}

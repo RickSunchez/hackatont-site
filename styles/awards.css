@@ -1,0 +1,31 @@
+#awards {
+	width: 100%;
+	background-color: red;
+	padding: 100px 0px;
+}
+
+#awards table {
+	width: 60%;
+	margin: 0px auto;
+	border-collapse: collapse;
+}
+
+#awards table th {
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: left;
+}
+#awards table td {
+	border-bottom: solid 1px grey;
+	padding: 20px;
+	vertical-align: top;
+}
+#awards .yellow {
+	padding: 10px 45px;
+	font-size: 15px;
+	border-radius: 30px;
+	border: none;
+	background-color: yellow; 	/*--------*/
+	cursor: pointer;
+	outline: none;
+}

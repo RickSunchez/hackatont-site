@@ -1,0 +1,38 @@
+#filler {
+	width: 100%;
+	height: 82vh;
+	position: relative; 
+}
+
+#filler #filler-content {
+	position: absolute;
+	width: 45%;
+	height: 94%;
+	top: 3%;
+	left: 0px;
+	background-color: #7DFF7D;
+}
+#filler #filler-image {
+	position: absolute;
+	width: 55%;
+	height: 100%;
+	top: 0px;
+	left: 45%;
+	background-color: #FFA4FF;
+}
+#filler .content {
+	height: 50%;
+	width: 50%;
+	margin-left: 50%;
+	font-size: 20px;
+}
+#filler .content .content-logo {
+	height: 50%;
+	width: 100%;
+	background-color: purple;
+}
+#filler .content .content-text {
+	height: 50%;
+	width: 100%;
+	background-color: green;
+}
