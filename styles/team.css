@@ -19,7 +19,6 @@
 	margin: 0 auto;
 	height: auto;
 	text-align: center;
-	line-height: 460px;
 }
 
 #team .content .avatar {
@@ -68,4 +67,9 @@
 
 #team .content .avatar:hover {
 	background-color: #F1F1F1;
+}
+
+.ava {
+	width: 100px;
+	height: 100px;
 }

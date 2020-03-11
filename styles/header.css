@@ -57,6 +57,8 @@
 	background-color: yellow; 	/*--------*/
 	cursor: pointer;
 	outline: none;
+	color: #184F6E;
+	font-weight: bold;
 }
 
 #header .yellow:hover {

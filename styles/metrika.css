@@ -9,9 +9,10 @@
 	width: 30%;
 	height: 60%;
 	left: 10%;
-	top: 20%;
+	top: 100px;
 	position: absolute;
 	color: #184F6E;
+	bottom: 100px;
 }
 	#metrika .text .text-main {
 		font-size: 50px;
@@ -26,7 +27,8 @@
 #metrika .elements {
 	width: 55%;
 	height: 50%;
-	top: 25%;
+	top: 100px;
+	bottom: 100px;
 	position: absolute;
 	left: 45%;
 }

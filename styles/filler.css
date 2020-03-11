@@ -24,11 +24,11 @@
 #filler .content {
 	height: 50%;
 	width: 70%;
-	margin-left: 30%;
+	margin-left: 40%;
 	font-size: 20px;
 }
 #filler .content .content-logo {
-	height: 50%;
+	height: 35%;
 	width: 100%;
 }
 
@@ -38,7 +38,7 @@
 }
 
 #filler .content .content-text {
-	height: 50%;
+	height: 40%;
 	width: 100%;
 	color: white;
 	font-size: 15px;
