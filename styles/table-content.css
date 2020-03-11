@@ -2,15 +2,17 @@
 	width: 100%;
 } 
 #table-content table{
-	width: 60%;
+	width: 80%;
 	margin: 100px auto;
 	font-size: 20px;
+	border-collapse: collapse;
 }
 #table-content table tr:nth-child(2n+1) {
-	background-color: #A4FFA4;
+	background-color: #F1F1F1;
 }
 #table-content table td {
 	padding: 10px;
+	color: #052E45;
 }
 #table-content table ul li {
 	list-style-type: none;
@@ -25,6 +27,11 @@
 	content: ".";
 }
 #table-content table td:first-child {
+	padding-top: 20px;
+	padding-left: 20px;
+	vertical-align: top;
 	font-size: 30px;
 	text-transform: uppercase;
+	color: #184F6E;
+	font-weight: 600;
 }

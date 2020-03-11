@@ -1,8 +1,8 @@
 #footer {
 	width: 100%;
 	height: 20vh;
-	line-height: 20vh;
-	background-color: grey;
+	background-color: #05151F;
+	color: white;
 }
 #footer .content {
 	width: 80%;
@@ -10,21 +10,31 @@
 	position: relative;
 	text-align: justify;
 	text-align-last: justify;
+	top: 50%;
+	left: 42%;
+	transform: translate(-50%, -50%);
 }
 #footer .content .inline {
 	display: inline-block;
+	font-size: 18px;
+
 }
 #footer .content .inline a {
 	display: inline-block;
-	width: 100px;
-	height: 100px;
-	background-color: red;
+	margin: 20px;
 	vertical-align: middle;
 }
 #footer .content .inline .cyan {
+	cursor: pointer;
 	padding: 20px 30px;
 	border-radius: 35px;
 	border: none;
 	outline: none;
 	background-color: #01BABA;
+	color: white;
+	font-size: 20px;
+	font-weight: bold
+}
+#footer .content .inline .cyan:hover {
+	background-color: #04d9d9;
 }

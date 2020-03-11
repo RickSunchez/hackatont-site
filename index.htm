@@ -14,7 +14,19 @@
 	<link rel="stylesheet" type="text/css" href="styles/footer.css">
 
 	<style type="text/css">
+		@font-face {
+		    font-family: 'Circe';
+		    src: url('Circe-Light.eot');
+		    src: local('Circe Light'), local('Circe-Light'),
+		        url('styles/fonts/Circe-Light.eot?#iefix') format('embedded-opentype'),
+		        url('styles/fonts/Circe-Light.woff2') format('woff2'),
+		        url('styles/fonts/Circe-Light.woff') format('woff'),
+		        url('styles/fonts/Circe-Light.ttf') format('truetype');
+		    font-weight: 300;
+		    font-style: normal;
+		}
 		* {
+			font-family: 'Circe';
 			margin: 0px;
 			padding: 0px;
 		}
@@ -22,14 +34,15 @@
 </head>
 <body>
 	<div id="header">
+		<div class="background"></div>
 		<div id="header-content">
-			<div class="logo">logo</div>
+			<div class="logo"><img src="images/logo.png"></div>
 			<div class="h1">ХАКАТОН</div>
 			<div class="text">
 				по созданию продуктов<br>
 				для улучшения городского пространства
 			</div>
-			<button class="yellow">Поддержать проект</button>
+			<button class="yellow" onclick="document.location.href = 'https://boomstarter.ru/projects/980617/hakaton_umnyy_gorod_-_chistyy_gorod'">Поддержать проект</button>
 		</div>
 	</div>
 
@@ -85,14 +98,14 @@
 	<div id="filler">
 		<div id="filler-content">
 			<div class="content">
-				<div class="content-logo">img</div>
+				<div class="content-logo" style="padding-top: 30px;"><img src="images/fillerCity.png"></div>
 				<div class="content-text">
 					Участвуй в хакатоне и<br>
 					реализуй свой проект
 				</div>
 			</div>
 			<div class="content">
-				<div class="content-logo">img</div>
+				<div class="content-logo"><img src="images/fillerRupor.png"></div>
 				<div class="content-text">
 					Помоги привлечь<br>
 					общественное внимание<br>
@@ -101,7 +114,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="filler-image">img</div>
+		<div id="filler-image"></div>
 	</div>
 	<div id="metrika">
 		<div class="text">
@@ -109,15 +122,15 @@
 				Участвуй<br>
 				в судьбе<br>
 				проекта
-			<p>
-			<p class="text-sub">Помоги улучшить наш мир<p>
+			</p>
+			<p class="text-sub">Помоги улучшить наш мир</p>
 		</div>
 		<div class="elements">
 			<p class="elem-title">Собранные средства:</p>
 			<div class="progress-bar-container">
 				<div class="progress-bar">20%</div>
 			</div>
-			<button class="cyan">Поддержать проект</button>
+			<button class="cyan" onclick="document.location.href = 'https://boomstarter.ru/projects/980617/hakaton_umnyy_gorod_-_chistyy_gorod'">Поддержать проект</button>
 		</div>
 	</div>
 
@@ -145,21 +158,23 @@
 	</div>
 
 	<div id="partners">
+		<div class="partnersTitle">ПАРТНЁРЫ</div>
 		<div class="content">
-			<div class="partner"></div>
-			<div class="partner"></div>
-			<div class="partner"></div>
-			<div class="partner"></div>
-			<div class="partner"></div>
+			<img src="images/google.png" class="partner">
+			<img src="images/ntgspi.png" class="partner">
+			<img src="images/cocacola.png" class="partner">
+			<img src="images/instagram.png" class="partner">
+			<img src="images/fox.png" class="partner">
 		</div>
 	</div>
 
 	<div id="team">
+		<div class="teamTitle">КОМАНДА ПРОЕКТА</div>
 		<div class="content">
 			<div class="avatar">
 				<div class="avatar-img"></div>
 				<div class="avatar-name">
-					<p class="name">Иванов <br>Иван Иванович</p>
+					<p class="name">Бурасов <br>Артём Дмитриевич</p>
 					<p class="prof">Художник <br>и поэт и еще кто-то</p>
 				</div>
 				<div class="avatar-description">
@@ -172,7 +187,7 @@
 			<div class="avatar">
 				<div class="avatar-img"></div>
 				<div class="avatar-name">
-					<p class="name">Иванов <br>Иван Иванович</p>
+					<p class="name">Головнёв <br>Максим Сергеевич</p>
 					<p class="prof">Художник <br>и поэт и еще кто-то</p>
 				</div>
 				<div class="avatar-description">
@@ -185,7 +200,7 @@
 			<div class="avatar">
 				<div class="avatar-img"></div>
 				<div class="avatar-name">
-					<p class="name">Иванов <br>Иван Иванович</p>
+					<p class="name">Турищев <br>Инвер Вадимович</p>
 					<p class="prof">Художник <br>и поэт и еще кто-то</p>
 				</div>
 				<div class="avatar-description">
@@ -198,7 +213,7 @@
 			<div class="avatar">
 				<div class="avatar-img"></div>
 				<div class="avatar-name">
-					<p class="name">Иванов <br>Иван Иванович</p>
+					<p class="name">Киселёв <br>Никита Владимирович</p>
 					<p class="prof">Художник <br>и поэт и еще кто-то</p>
 				</div>
 				<div class="avatar-description">
@@ -211,7 +226,46 @@
 			<div class="avatar">
 				<div class="avatar-img"></div>
 				<div class="avatar-name">
-					<p class="name">Иванов <br>Иван Иванович</p>
+					<p class="name">Пашкина <br>Ольга Андреевна</p>
+					<p class="prof">Художник <br>и поэт и еще кто-то</p>
+				</div>
+				<div class="avatar-description">
+					<p class="description">
+						Художник, поэт, фидантроп, Художник, поэт, фидантроп, Художник, поэт, фидантроп, Художник, поэт, фидантроп, Художник, поэт, фидантроп, Художник, поэт, фидантроп, Художник, поэт, фидантроп
+					</p>
+				</div>
+			</div>
+
+			<div class="avatar">
+				<div class="avatar-img"></div>
+				<div class="avatar-name">
+					<p class="name">Баяндин <br>Кирилл Евгеньевич</p>
+					<p class="prof">Художник <br>и поэт и еще кто-то</p>
+				</div>
+				<div class="avatar-description">
+					<p class="description">
+						Художник, поэт, фидантроп, Художник, поэт, фидантроп, Художник, поэт, фидантроп, Художник, поэт, фидантроп, Художник, поэт, фидантроп, Художник, поэт, фидантроп, Художник, поэт, фидантроп
+					</p>
+				</div>
+			</div>
+
+			<div class="avatar">
+				<div class="avatar-img"></div>
+				<div class="avatar-name">
+					<p class="name">Даровской <br>Владимир Евгеньевич</p>
+					<p class="prof">Художник <br>и поэт и еще кто-то</p>
+				</div>
+				<div class="avatar-description">
+					<p class="description">
+						Художник, поэт, фидантроп, Художник, поэт, фидантроп, Художник, поэт, фидантроп, Художник, поэт, фидантроп, Художник, поэт, фидантроп, Художник, поэт, фидантроп, Художник, поэт, фидантроп
+					</p>
+				</div>
+			</div>
+
+			<div class="avatar">
+				<div class="avatar-img"></div>
+				<div class="avatar-name">
+					<p class="name">Зинатуллин <br>Данил Денисович</p>
 					<p class="prof">Художник <br>и поэт и еще кто-то</p>
 				</div>
 				<div class="avatar-description">
@@ -227,12 +281,20 @@
 		<div class="content">
 			<div class="inline">Хакатонт &#169;</div>
 			<div class="inline">
-				<a href="#" class="socials-link"></a>
-				<a href="#" class="socials-link"></a>
-				<a href="#" class="socials-link"></a>
+				<a href="https://vk.com/hackatont" class="socials-link">
+					<img src="images/vk.png">
+				</a>
+				<a href="https://www.instagram.com/hackato.nt/" class="socials-link">
+					<img src="images/inst.png">
+				</a>
+				<a href="#" class="socials-link">
+					<img src="images/facebook.png">
+				</a>
 			</div>
 			<div  class="inline">
-				<button class="cyan">Поддержать проект</button>
+				<button onclick="document.location.href = 'https://boomstarter.ru/projects/980617/hakaton_umnyy_gorod_-_chistyy_gorod'" class="cyan">
+					Поддержать проект
+				</button>
 			</div>
 		</div>
 	</div>

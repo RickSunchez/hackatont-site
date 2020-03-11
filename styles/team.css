@@ -2,8 +2,18 @@
 	width: 100%;
 	height: auto;
 	padding: 100px 0;
-	background-color: #FFB5B5;
+	background-color: white;
 } 
+
+.teamTitle {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #052E45;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
 #team .content {
 	width: 70%;
 	margin: 0 auto;
@@ -17,14 +27,13 @@
 	height: 450px;
 	display: inline-block;
 	vertical-align:bottom;
-	background-color: red;
 }
 #team .content .avatar .avatar-img {
 	margin: 25px;
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-	background-color: green;
+	background-color: #C4C4C4;
 }
 #team .content .avatar .avatar-name {
 	width: 100%;
@@ -38,7 +47,7 @@
 }
 #team .content .avatar .avatar-description {
 	padding: 20px;
-	background-color: green;
+	background-color: #0076B8;
 	display: none;
 }
 #team .content .avatar .avatar-description .description {
@@ -47,11 +56,16 @@
 	display: block;
 	line-height: calc(60px / 3);
 	font-size: 20px;
-	background-color: green;
+	background-color: #0076B8;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	text-align: left;
+	color: white;
 }
 #team .content .avatar:hover .avatar-description{
 	display: block;
+}
+
+#team .content .avatar:hover {
+	background-color: #F1F1F1;
 }

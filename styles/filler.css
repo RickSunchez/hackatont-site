@@ -10,7 +10,7 @@
 	height: 94%;
 	top: 3%;
 	left: 0px;
-	background-color: #7DFF7D;
+	background: linear-gradient(139.68deg, #184F6E 28.27%, #052E45 88.45%);
 }
 #filler #filler-image {
 	position: absolute;
@@ -18,21 +18,29 @@
 	height: 100%;
 	top: 0px;
 	left: 45%;
-	background-color: #FFA4FF;
+	background: url(../images/fillerImg.jpeg);
+	background-size: cover;
 }
 #filler .content {
 	height: 50%;
-	width: 50%;
-	margin-left: 50%;
+	width: 70%;
+	margin-left: 30%;
 	font-size: 20px;
 }
 #filler .content .content-logo {
 	height: 50%;
 	width: 100%;
-	background-color: purple;
 }
+
+#filler .content .content-logo img {
+	width: 100px;
+	height: 100px;
+}
+
 #filler .content .content-text {
 	height: 50%;
 	width: 100%;
-	background-color: green;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
 }
