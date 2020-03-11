@@ -5,6 +5,11 @@
 	background-color: white;
 } 
 
+.frame {
+	margin-top: -80px;
+	width: 600px;
+}
+
 #metrika .text {
 	width: 30%;
 	height: 60%;

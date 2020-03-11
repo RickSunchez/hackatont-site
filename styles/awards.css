@@ -2,7 +2,7 @@
 	width: 100%;
 	color: white;
 	height: auto;
-	background-image: url(../images/awardImg.jpeg);
+	background-image: url(../images/backgroundAward.jpeg);
 	background-size: 100%;
 	background-blend-mode: hard-light;
 	box-shadow:0 0 0 1000px rgba(4, 32, 48, 0.6) inset;
