@@ -1,0 +1,16 @@
+#partners {
+	width: 100%;
+	height: auto;
+} 
+#partners .content {
+	width: 70%;
+	margin: 100px auto;
+	min-height: 50px;
+	text-align: center;
+}
+#partners .content .partner {
+	width: 25%;
+	height: 150px;
+	background-color: red; 
+	display: inline-block;
+}
