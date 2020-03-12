@@ -3,6 +3,7 @@
 	height: auto;
 	padding: 100px 0;
 	background-color: white;
+	user-select: none;
 } 
 
 .teamTitle {
@@ -26,6 +27,7 @@
 	height: 450px;
 	display: inline-block;
 	vertical-align:bottom;
+	margin: 20px;
 }
 #team .content .avatar .avatar-img {
 	margin: 25px;
@@ -72,4 +74,13 @@
 .ava {
 	width: 100px;
 	height: 100px;
+}
+
+.link_vk {
+	position: absolute;
+	color: white;
+	margin-left: 15px;
+	font-size: 18px;
+	margin-top: -20px;
+	user-select: none;
 }

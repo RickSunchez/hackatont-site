@@ -3,6 +3,7 @@
 	height: 20vh;
 	background-color: #05151F;
 	color: white;
+	user-select: none;
 }
 #footer .content {
 	width: 80%;
