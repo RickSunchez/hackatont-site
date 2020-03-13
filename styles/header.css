@@ -3,7 +3,7 @@
 	height: 80vh;
 	position: relative;
 	color: white;
-} 
+}
 
 #header #header-content {
 	position: absolute;
@@ -29,9 +29,10 @@
 	margin: 0px auto;
 	width: 150px;
 	height: 150px;
-	line-height: 150px; 		/*--------*/
-	border-radius: 50%; 		/*--------*/	
+	line-height: 150px;
+	border-radius: 50%;
 }
+
 #header .h1 {
 	width: 100%;
 	margin-top: 50px;
@@ -40,11 +41,13 @@
 	color: transparent;
 	-webkit-text-stroke: 2px white;
 }
+
 #header .text {
 	width: 100%;
 	font-size: 30px;
 	text-align: center;
 }
+
 #header .yellow {
 	margin-top: 50px;
 	padding: 20px 45px;
@@ -60,4 +63,21 @@
 
 #header .yellow:hover {
 	background-color: #f0e824;
+}
+
+@media (max-device-width: 768px) {
+	#header {
+		height: 45vh;
+	}
+
+	.background {
+		background: url(../images/backgroundHeader_x1920.gif) no-repeat;
+	    background-size: cover;
+	}
+	
+	#header .logo {
+		width: 200px;
+		height: 200px;
+	}
+
 }

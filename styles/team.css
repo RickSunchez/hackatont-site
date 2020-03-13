@@ -84,3 +84,13 @@
 	margin-top: -20px;
 	user-select: none;
 }
+
+@media (max-device-width: 768px) {
+	#team .content .avatar .avatar-description{
+		display: block;
+	}
+	
+	#team .content .avatar {
+		background-color: #F1F1F1;
+	}
+}

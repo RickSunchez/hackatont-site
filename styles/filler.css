@@ -44,3 +44,9 @@
 	font-size: 15px;
 	font-weight: 600;
 }
+
+@media (max-device-width: 768px) {
+	#filler {
+		height: 40vh;
+	}
+}

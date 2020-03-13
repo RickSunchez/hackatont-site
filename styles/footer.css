@@ -39,3 +39,10 @@
 #footer .content .inline .cyan:hover {
 	background-color: #04d9d9;
 }
+
+@media (max-device-width: 768px) {
+	#footer .content .inline a img {
+		width: 60px;
+		height: 50px;
+	}
+}

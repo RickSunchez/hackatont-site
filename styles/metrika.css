@@ -65,3 +65,9 @@
 #metrika .elements .cyan:hover {
 	background-color: #04d9d9;
 }
+
+@media (max-device-width: 768px) {
+	#metrika {
+		height: 15vh;
+	}
+}
