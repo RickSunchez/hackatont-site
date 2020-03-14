@@ -66,14 +66,15 @@
 	background-color: #04d9d9;
 }
 
+@media (min-device-width: 800px) and (max-device-width: 1400px) {
+	#metrika {
+		height: 45vh;
+	}
+}
+
 @media (max-device-width: 768px) {
 	#metrika {
 		height: 15vh;
 	}
 }
 
-@media (max-device-width: 1400px) {
-	#metrika {
-		height: 45vh;
-	}
-}

@@ -65,6 +65,20 @@
 	background-color: #f0e824;
 }
 
+@media (min-device-width: 800px) and (max-device-width: 1400px) {
+	#header #header-content {
+		top: 3%;	
+	}
+
+	#header .h1 {
+		font-size: 80px;
+	}
+
+	#header .yellow {
+		margin-top: 20px;
+	}
+}
+
 @media (max-device-width: 768px) {
 	#header #header-content {
 		top: 10%;	
@@ -94,17 +108,3 @@
 
 }
 
-@media (max-device-width: 1400px) {
-	#header #header-content {
-		top: 3%;	
-	}
-
-	#header .h1 {
-		font-size: 80px;
-	}
-
-	#header .yellow {
-		margin-top: 20px;
-	}
-
-}
